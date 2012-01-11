@@ -33,7 +33,7 @@ div#wrapper {
 textarea,
 input {
 /*    border: 1px solid #BDC7D8;*/
-    border: 1px solid #8500A6;
+    border: 1px solid #0000FF;
 }
 
 p {
@@ -45,7 +45,7 @@ a:active,
 a:visited,
 a:link {
     text-decoration: none;
-    color: #8500A6;
+    color: #0000FF;
 }
 
 li {
@@ -79,7 +79,7 @@ div#header div#description {
     margin-top: 10px;
     padding-right: 10px;
     font-size: 22px;
-    color: #8500A6;
+    color: #0000FF;
 }
 
 /** CENTRAL **/
@@ -158,7 +158,7 @@ div#footer {
 div#footer div#content,
 div#footer div#content b {
     width: 100%;
-    color: #8500A6;
+    color: #0000FF;
     text-align: center;
     border-top: 2px solid #FF6600;
     padding-top: 10px;
