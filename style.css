@@ -1,0 +1,191 @@
+/*
+THEME NAME: Snds
+THEME URI: http://www.plaintxt.org/themes/sandbox/
+DESCRIPTION: Rich with powerful and dynamic semantic class selectors, Sandbox is a canvas for CSS artists
+VERSION: 1.6.1
+AUTHOR: <a href="http://andy.wordpress.com/">Andy Skelton</a> &amp; <a href="http://www.plaintxt.org/">Scott Allan Wallick</a>
+AUTHOR URI:
+TAGS: white, microformats, fixed-width, flexible-width, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar
+*/
+
+
+/** GLOBAL **/
+* {
+    font-family: 'Varela', sans-serif;
+    color: #333333;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    width: 100%;
+    background-color: #FFFFFF;
+    font-size: 13px;
+}
+
+div#wrapper {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+textarea,
+input {
+/*    border: 1px solid #BDC7D8;*/
+    border: 1px solid #8500A6;
+}
+
+p {
+    padding-top: 8px;
+}
+
+a:hover,
+a:active,
+a:visited,
+a:link {
+    text-decoration: none;
+    color: #8500A6;
+}
+
+li {
+    margin-left: 30px;
+}
+
+/** HEADER **/
+div#header {
+    height: 180px;
+    background-image: url('images/top.jpg');
+    background-repeat: no-repeat;
+}
+
+div#header div#logo {
+    float: left;
+    padding-top: 15px;
+    margin-left: 15px;
+}
+
+div#header img#logo {
+    width:150px;
+}
+
+div#header div#beta {
+    padding-top: 145px;
+    color: #FF6600;
+}
+
+div#header div#description {
+    float: right;
+    margin-top: 10px;
+    padding-right: 10px;
+    font-size: 22px;
+    color: #8500A6;
+}
+
+/** CENTRAL **/
+
+div#content {
+    width: 530px;
+    text-align: justify;
+    float: left;
+    padding: 10px 0 10px 0px;
+}
+
+div.entry-content{
+    padding: 0 10px 0 0px; 
+}
+
+
+/** SIDEBAR **/
+div#sidebar {
+    float: right;
+    width: 160px;
+    text-align: right;
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+div#sidebar ul {
+    padding-bottom: 20px;
+}
+
+div#sidebar li {
+    list-style: none;
+    margin: 0;
+}
+
+div#sidebar ul ul li {
+    list-style: none;
+}
+
+div#sidebar ul.menu li {
+    border-bottom: 1px solid #FF6600;
+    padding: 5px 0;
+}
+
+div#sidebar ul.menu li a:active, 
+div#sidebar ul.menu li a:visited, 
+div#sidebar ul.menu li a:link {
+    color: #333333;
+}
+
+div#sidebar ul.menu li a:hover {
+    color: #FF6600;
+}
+
+div#sidebar ul.menu li li a:active,
+div#sidebar ul.menu li li a:visited,
+div#sidebar ul.menu li li a:link {
+    color: #FF6600;
+}
+
+div#sidebar ul.menu li li a:hover {
+    color: #FF6600;
+}
+
+div#sidebar div.social img {
+    float: left;
+    padding-left: 8px;
+}
+
+/** FOOTER **/
+
+div#footer {
+    padding-top: 20px;
+    clear: both;
+}
+
+div#footer div#content,
+div#footer div#content b {
+    width: 100%;
+    color: #8500A6;
+    text-align: center;
+    border-top: 2px solid #FF6600;
+    padding-top: 10px;
+    font-size: 10px;
+}
+
+
+div {
+   border: 0px solid black;
+}
+
+div.block {
+   overflow:auto;
+   margin-bottom:20px;
+}
+div.right {
+   float: right;
+}
+div.left {
+   float: left;
+}
+
+div.img {
+   width: 100px;
+}
+
+div.text {
+   width: 400px;
+   vertical-align:middle;
+}
