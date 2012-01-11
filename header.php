@@ -15,7 +15,7 @@
     <div id="wrapper" class="hfeed">
         <div id="header">
             <div id="logo">
-                <a href="<?php bloginfo('url'); ?>"><img id="logo" src="<?php echo bloginfo('url');?>/wp-content/themes/snds/images/logo.png"></a>
+                <a href="<?php bloginfo('url'); ?>"><img id="logo" src="<?php echo bloginfo('url');?>/wp-content/themes/wp-theme-snds/images/logo.png"></a>
             </div>
             <div id="description"><?php bloginfo('description') ?></div>
             <div id="beta">Beta</div>
