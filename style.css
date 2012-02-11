@@ -74,11 +74,12 @@ div#header div#beta {
 }
 
 div#header div#description {
-    float: right;
+    float: left;
     margin-top: 10px;
-    padding-right: 10px;
-    font-size: 22px;
-    color: #8500A6;
+    padding-left: 10px;
+    font-size: 25px;
+    color: #FF6600;
+    font-weight: bold;
 }
 
 /** CENTRAL **/
@@ -94,6 +95,10 @@ div.entry-content{
     padding: 0 10px 0 0px; 
 }
 
+/** RESUME **/
+div.hresume header.vcard {
+    display: none;
+}
 
 /** SIDEBAR **/
 div#sidebar {
