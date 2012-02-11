@@ -44,7 +44,7 @@ a:active,
 a:visited,
 a:link {
     text-decoration: none;
-    color: #8500A6;
+    color: #FF6600;
 }
 
 li {
@@ -93,6 +93,11 @@ div#content {
 
 div.entry-content{
     padding: 0 10px 0 0px; 
+}
+
+/** HOME PAGE **/
+div#post-2 h2{
+    display: none;
 }
 
 /** RESUME **/
@@ -162,7 +167,6 @@ div#footer {
 div#footer div#content,
 div#footer div#content b {
     width: 100%;
-    color: #8500A6;
     text-align: center;
     border-top: 2px solid #FF6600;
     padding-top: 10px;
