@@ -14,5 +14,5 @@
 <body>
     <div id="wrapper" class="hfeed">
         <div id="header">
-            <div id="description"><?php bloginfo('name') ?></div>
+			<div id="description"><a href="<?php bloginfo('url') ?>"><?php bloginfo('name') ?></a></div>
         </div><!--  #header -->

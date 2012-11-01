@@ -11,7 +11,7 @@ TAGS: white, microformats, fixed-width, flexible-width, one-column, two-columns,
 
 /** GLOBAL **/
 * {
-    font-family: 'Varela', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     color: #333333;
     padding: 0;
     margin: 0;
@@ -25,14 +25,14 @@ body {
 }
 
 div#wrapper {
-    width: 700px;
+    width:900px;
     margin-left: auto;
     margin-right: auto;
 }
 
 textarea,
 input {
-    border: 1px solid #8500A6;
+    border: 1px solid #DDDDDD;
 }
 
 p {
@@ -44,7 +44,11 @@ a:active,
 a:visited,
 a:link {
     text-decoration: none;
-    color: #FF6600;
+    color: #E34234;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 li {
@@ -53,39 +57,25 @@ li {
 
 /** HEADER **/
 div#header {
-    height: 180px;
-    background-image: url('images/top.jpg');
+    height: 178px;
+    background-image: url('images/top.png');
     background-repeat: no-repeat;
-}
-
-div#header div#logo {
-    float: left;
-    padding-top: 15px;
-    margin-left: 15px;
-}
-
-div#header img#logo {
-    width:150px;
-}
-
-div#header div#beta {
-    padding-top: 145px;
-    color: #FF6600;
+    border-bottom: 2px solid #E34234;
 }
 
 div#header div#description {
-    float: left;
-    margin-top: 10px;
-    padding-left: 10px;
+    float: right;
+    margin-top: 78px;
+    padding-right: 185px;
     font-size: 25px;
-    color: #FF6600;
+    color: #E34234;
     font-weight: bold;
 }
 
 /** CENTRAL **/
 
 div#content {
-    width: 530px;
+    width: 730px;
     text-align: justify;
     float: left;
     padding: 10px 0 10px 0px;
@@ -100,8 +90,18 @@ div#post-2 h2{
     display: none;
 }
 
+div#post-2 .entry-content {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
 /** RESUME **/
 div.hresume header.vcard {
+    display: none;
+}
+
+/** CONTACT FORM **/
+div.contactform input#mlcf_www {
     display: none;
 }
 
@@ -128,8 +128,8 @@ div#sidebar ul ul li {
 }
 
 div#sidebar ul.menu li {
-    border-bottom: 1px solid #FF6600;
-    padding: 5px 0;
+    border-bottom: 1px solid #E34234;
+    padding: 5px 2px;
 }
 
 div#sidebar ul.menu li a:active, 
@@ -138,18 +138,12 @@ div#sidebar ul.menu li a:link {
     color: #333333;
 }
 
-div#sidebar ul.menu li a:hover {
-    color: #FF6600;
-}
-
+div#sidebar ul.menu li a:hover,
 div#sidebar ul.menu li li a:active,
 div#sidebar ul.menu li li a:visited,
-div#sidebar ul.menu li li a:link {
-    color: #FF6600;
-}
-
+div#sidebar ul.menu li li a:link,
 div#sidebar ul.menu li li a:hover {
-    color: #FF6600;
+    color: #E34234;
 }
 
 div#sidebar div.social img {
@@ -168,7 +162,7 @@ div#footer div#content,
 div#footer div#content b {
     width: 100%;
     text-align: center;
-    border-top: 2px solid #FF6600;
+    border-top: 2px solid #E34234;
     padding-top: 10px;
     font-size: 10px;
 }

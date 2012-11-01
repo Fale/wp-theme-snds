@@ -1,5 +1,12 @@
 <?php
 
+function ubuntu_font()
+{
+    echo "<link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700,700italic' rel='stylesheet' type='text/css'>";
+}
+
+add_action('wp_head', 'ubuntu_font');
+
 function path()
 {
     return "wp-content/themes/snds/";
